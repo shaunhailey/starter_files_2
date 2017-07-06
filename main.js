@@ -96,8 +96,15 @@ getLength(x)
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
-
-
+function greaterThan (firstNum, secondNum) {
+  if (firstNum > secondNum) {
+    console.log('false')
+  }
+  if (firstNum < secondNum) {
+    console.log('true')
+  }
+}
+greaterThan(4, 3)
 
 // 8.
 // Write a function called `greet` that takes a
@@ -105,8 +112,13 @@ getLength(x)
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
+var name = 'Archibald'
 
+function greet (name) {
+  console.log('Hello, ' + name + '!')
+}
 
+greet(name)
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
@@ -116,3 +128,10 @@ getLength(x)
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+
+function madlib (verb, adjective, noun, Name1) {
+  console.log(Name1 + ' ' + verb + ' ' + 'a ' + adjective + ' ' + noun + ' in the rear.')
+}
+
+madlib('boinked', 'randy', 'goat', 'Archibald')
