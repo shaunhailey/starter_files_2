@@ -25,41 +25,38 @@ else if(num1 === num2) {
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-let num3=10
-let num4=20
-let num5=30
+
 
 function maxOfThree(num3, num4, num5) {
+  if (num3 > num4 && num3 > num5)
+  console.log (num3)
+  else if (num4 > num3 && num4 > num5)
+  console.log (num4)
+  else if (num5 > num3 && num5 > num4)
+  console.log (num5)
+}
 
-math.max (num3, num4, num5)
-console.log(math.max)
-
-
+maxOfThree(10, 20, 30)
 
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
 
-function isVowel(char){
-    if (char = a) {
+let char = "a"
+
+function isVowel(char) {
+    if (char = "a" || "e" || "i" || "o" || "u" || "y")
+    {
       console.log ('vowel')
-    else if (char = e) {
-      console.log ('vowel')}
-    else if (char = i) {
-      console.log ('vowel')}
-      else if (char = o) {
-        console.log ('vowel')}
-        else if (char = u) {
-          console.log ('vowel')}
-          else if (char = y) {
-            console.log ('vowel')
-            else {console.log 'consonant'}
-          }
-        }
-      }
     }
-  }
+    else {
+      console.log ('consonant')
+    }
 }
+
+isVowel("a")
+
+
 
 
 // 4.
