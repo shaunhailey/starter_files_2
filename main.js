@@ -63,19 +63,33 @@ isVowel("a")
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
 
+function sum(NumA, NumB) {
+  console.log (NumA + NumB)
+}
 
+sum(5, 8)
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
 
+function Avg(NumC, NumD, NumE) {
+  console.log ((NumC + NumD + NumE) / 3)
+}
+
+Avg(8, 11, 4)
 
 
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
+var x = '123456'
+var empty = ' '
 
-
+function getLength(x) {
+  console.log (x.length)
+}
+getLength(x)
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
